@@ -1,0 +1,127 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Playfair Display SC', serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 100px;
+    background-color: #a0d2eb;
+    color: #3dc5e0;
+}
+
+header img {
+    width: 400px;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: right;
+}
+
+header h1 {
+    font-family: 'Carter One', cursive;
+    text-shadow: 1px 2px 2px #0000004d;
+}
+
+.skills {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f1e6f8;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #0000001a;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+.project-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    flex-basis: calc(100% - 100px); 
+    margin-bottom: 20px; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #0000001a;
+    background-size: cover;
+    background-position: center;
+    color: #ede9f1;
+}
+
+.project:nth-child(odd) {
+    background-color: #a887d6; 
+}
+
+.projects h2 {
+    color: #200d3b;
+    text-align: center;
+}
+
+.project h3, .project p {
+    margin: 0;
+    padding: 10px;
+    background-color: #2a094e80; 
+}
+
+.contact {
+    color: #dacce4;
+}
+
+
+.contact-form label, .contact-form input, .contact-form textarea, .contact-form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    background: linear-gradient(rgba(103, 57, 172, 0.5), rgba(103, 57, 172, 0.5)); 
+    border: none; 
+    color: #fff;
+}
+
+.social-links ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.social-links a {
+    font-size: 30px;
+    padding: 70px;
+    color: #dacce4;
+}
+
+a:hover {
+    color: #7ff4f4;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+    
+    .header img {
+        width: 100px;
+        height: 100px;
+    }
+}
